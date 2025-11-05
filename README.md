@@ -18,7 +18,7 @@ Optional: Architecture diagram image link
 Tip:
 Use the markdown file I provided earlier — it’s already formatted for professional GitHub display.
 
-🖼️ Architecture_Diagram12.png
+🖼️ Architecture_Diagram
 ![AWS Architecture Diagram](Architecture-Diagram12.png)
 
 Purpose:
