@@ -19,6 +19,7 @@ Tip:
 Use the markdown file I provided earlier — it’s already formatted for professional GitHub display.
 
 🖼️ Architecture_Diagram12.png
+![AWS Architecture Diagram](Architecture-Diagram12.png)
 
 Purpose:
 A clear visual representation of your AWS architecture setup.
