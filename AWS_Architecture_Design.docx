@@ -1,0 +1,13 @@
+AWS Cloud Architecture Design for an E‑Commerce Web Application
+1. AWS Architecture Description
+I designed a three‑tier AWS Cloud Architecture for an E‑commerce web application, including Web, Application, and Database layers. Each layer is built to handle scalability, security, and reliability. Key AWS services used include EC2 for compute, Elastic Load Balancer for distributing traffic, RDS (MySQL) for database management, S3 for storing static content, CloudFront for global content delivery, and Route 53 for DNS management. This setup ensures cost-effective performance and high availability.
+2. Security Strategy
+Security was prioritized using IAM roles with least privilege, MFA for administrators, and restrictive security groups. Encryption was applied using AWS KMS for RDS and S3, while HTTPS ensured secure data transmission. CloudTrail and AWS Config were enabled for continuous monitoring of access and configuration changes.
+3. Amazon CloudWatch Monitoring Plan
+Amazon CloudWatch was configured to track key performance metrics such as EC2 CPU utilization, RDS connection count, ELB latency, and CloudFront cache hit ratio. SNS notifications were set for alerting when thresholds exceeded, and dashboards were built for real-time system health visualization.
+4. Cost Optimization Recommendations
+To maintain cost efficiency, Auto Scaling and Spot Instances were implemented, reducing idle resource costs. S3 Lifecycle Policies moved old data to Glacier storage, while Savings Plans were planned for RDS. Trusted Advisor checks ensured resource cleanup and performance optimization.
+5. Disaster Recovery Considerations
+Disaster recovery planning included Multi-AZ deployments for EC2 and RDS, daily automated RDS backups, and S3 cross-region replication. CloudFormation templates were used to quickly recreate the environment in case of regional failure, ensuring business continuity.
+Conclusion
+This project provided hands-on experience designing a scalable, secure, and cost-optimized AWS architecture for a real-world E‑commerce web application. It strengthened my understanding of how cloud design choices impact reliability, performance, and user experience.
